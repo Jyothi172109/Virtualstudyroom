@@ -1,28 +1,14 @@
+// src/components/Header.js
 import React from 'react';
-import VideoChat from './VideoChat';
-import Whiteboard from './Whiteboard';
-import ChatBox from './ChatBox';
-import UserList from './UserList';
-import Controls from './Controls';
 
-const App = () => {
+
+const Header = () => {
   return (
-    <div className="app">
-      <div className="video-chat">
-        <VideoChat />
-      </div>
-      <div className="main-content">
-        <Whiteboard />
-        <ChatBox />
-      </div>
-      <div className="user-list">
-        <UserList />
-      </div>
-      <div className="controls">
-        <Controls />
-      </div>
-    </div>
+    <header className="header">
+      <h1>My Website</h1>
+      <p>Your tagline or description goes here</p>
+    </header>
   );
 };
 
-export default Virtualstudyroom;
+export default Header;
